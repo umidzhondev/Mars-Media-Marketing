@@ -20,22 +20,22 @@ closeBtn.addEventListener("click", () => {
 
 const navLinks = document.querySelectorAll(".nav__link");
 const navLinks2 = document.querySelectorAll(".footer__nav-link");
-navLinks.forEach(navLink =>{
-  navLink.addEventListener('click',() => {
-      closeNavbox();
+navLinks.forEach((navLink) => {
+  navLink.addEventListener("click", () => {
+    closeNavbox();
   });
-})
-navLinks2.forEach(navLink =>{
-  navLink.addEventListener('click',() => {
-      closeNavbox();
+});
+navLinks2.forEach((navLink) => {
+  navLink.addEventListener("click", () => {
+    closeNavbox();
   });
-})
+});
 
 function closeNavbox() {
   nav.classList.replace("open", "close");
 }
 
-// * AOS Js 
+// * AOS Js
 AOS.init();
 
 // * Modals
@@ -56,60 +56,52 @@ overlays.forEach((overlay) => {
         opacity: 1;
         z-index: 6;
         `;
-    if (overlay.previousElementSibling.id == "cross") {
+    if (overlay.previousElementSibling.id == "bek") {
       number = 1;
       changeImage();
     }
-    if (overlay.previousElementSibling.id == "omonMeat") {
+    if (overlay.previousElementSibling.id == "amt") {
       number = 2;
       changeImage();
     }
-    if (overlay.previousElementSibling.id == "betonext") {
+    if (overlay.previousElementSibling.id == "imf") {
       number = 3;
       changeImage();
     }
-    if (overlay.previousElementSibling.id == "elmart") {
+    if (overlay.previousElementSibling.id == "marhamat") {
       number = 4;
       changeImage();
     }
-    if (overlay.previousElementSibling.id == "zarafshan") {
+    if (overlay.previousElementSibling.id == "humo") {
       number = 5;
       changeImage();
     }
-    if (overlay.previousElementSibling.id == "ilm-chashmalari") {
+    if (overlay.previousElementSibling.id == "goup") {
       number = 6;
       changeImage();
     }
-    if (overlay.previousElementSibling.id == "tescos") {
+    if (overlay.previousElementSibling.id == "kalimera") {
       number = 7;
       changeImage();
     }
-    if (overlay.previousElementSibling.id == "ezaz") {
+    if (overlay.previousElementSibling.id == "oq-uy") {
       number = 8;
       changeImage();
     }
-    if (overlay.previousElementSibling.id == "liberty") {
+    if (overlay.previousElementSibling.id == "business-house") {
       number = 9;
       changeImage();
     }
-    if (overlay.previousElementSibling.id == "limpeza") {
+    if (overlay.previousElementSibling.id == "cat") {
       number = 10;
       changeImage();
     }
-    if (overlay.previousElementSibling.id == "wooding") {
+    if (overlay.previousElementSibling.id == "city") {
       number = 11;
       changeImage();
     }
-    if (overlay.previousElementSibling.id == "mfactor") {
+    if (overlay.previousElementSibling.id == "matraslar") {
       number = 12;
-      changeImage();
-    }
-    if (overlay.previousElementSibling.id == "garden-emira") {
-      number = 13;
-      changeImage();
-    }
-    if (overlay.previousElementSibling.id == "saray") {
-      number = 14;
       changeImage();
     }
   });
@@ -248,41 +240,39 @@ bodyOverlay3.addEventListener("click", () => {
   bodyOverlay3.classList.remove("body__overlay3-on");
 });
 // * Change Modal Images
+
 function changeImage() {
-  console.log("ishlayabdi");
-  let product = crossImgs;
+  let product = "imgs";
   if (number == 1) {
-    product = crossImgs;
+    product = bekImgs;
   } else if (number == 2) {
-    product = omonMeatImgs;
+    product = amtImgs;
   } else if (number == 3) {
-    product = betonextImgs;
+    product = imfImgs;
   } else if (number == 4) {
-    product = elmartImgs;
+    product = marhamatImgs;
   } else if (number == 5) {
-    product = zarafshanImgs;
+    product = humoImgs;
   } else if (number == 6) {
-    product = ilmChashmalariImgs;
+    product = goupImgs;
   } else if (number == 7) {
-    product = tescosImgs;
+    product = kalimeraImgs;
   } else if (number == 8) {
-    product = ezazImgs;
+    product = oqUyImgs;
   } else if (number == 9) {
-    product = libertyImgs;
+    product = businessHouseImgs;
   } else if (number == 10) {
-    product = limpezaImgs;
+    product = catImgs;
   } else if (number == 11) {
-    product = woodingImgs;
+    product = cityImgs;
   } else if (number == 12) {
-    product = mfactorImgs;
-  } else if (number == 13) {
-    product = gardenEmiraImgs;
-  } else if (number == 14) {
-    product = sarayImgs;
+    product = matraslarImgs;
   }
+
   let len = product.length;
   document.querySelector(".swiper-wrapper").innerHTML = "";
-  for (let index = 0; index < len; index++) {
+  for (let index = 0; index <= len; index++) {
+    console.log(length);
     let newItem = document.createElement("div");
     newItem.innerHTML = `
         <img src="${product[index]}" class="umidjon" alt="image">
@@ -292,4 +282,5 @@ function changeImage() {
     document.querySelector(".swiper-wrapper").appendChild(newItem);
   }
 }
+
 changeImage();
