@@ -1,0 +1,897 @@
+@media screen and (max-width: 1300px) {
+  /** Header section styles */
+  .nav__item {
+    margin-right: 1rem !important;
+  }
+  .navbar {
+    padding: 1.2rem 2rem !important;
+  }
+  .navbar.fixed {
+    padding: 1.2rem 2rem !important;
+  }
+  .navbar__logo {
+    margin: 0;
+  }
+  .navbar__logo img {
+    transform: scale(3);
+  }
+  /** Header section styles */
+
+  /** Home section styles  */
+  .home {
+    height: 29rem;
+  }
+  .home__section-title {
+    padding-top: 2.5rem;
+  }
+  .typed-cursor,
+  .home__section-subtitle,
+  .home__section-title {
+    font-size: 2rem;
+  }
+  .home__section-icon {
+    margin-top: 1rem;
+  }
+  /** Home section styles end  */
+
+  /** About section styles */
+  .about__description {
+    width: 45rem;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: CodecPro-News !important;
+    font-weight: 400 !important;
+  }
+  /** About section styles end */
+
+  /** Portfolio section styles */
+  .portfolio-col-h {
+    height: 68vh;
+  }
+  .portfolio-col-h2 {
+    height: 40vh;
+  }
+  .portfolio-col-h3 {
+    height: 55vh;
+  }
+  .swiper-container {
+    width: 750px !important;
+    height: 400px !important;
+  }
+  .portfolio__slider {
+    width: 750px !important;
+    height: 400px !important;
+  }
+  /** Portfolio section styles end */
+
+  /** Partners section styles  */
+  .partners__content .row .col-6 img {
+    width: 8rem !important;
+  }
+  /** Partners section styles end  */
+
+  /** Blog section styles */
+  .blog {
+    padding: 5rem 0;
+  }
+  .blog .container {
+    max-width: 1100px !important;
+  }
+  .blog__content .row {
+    margin: 0 2rem;
+  }
+  /** Blog section styles end */
+
+  /** Order section styles  */
+  .wrapper__content {
+    width: 100%;
+  }
+  .order__form {
+    margin: 0 5rem !important;
+  }
+  /** Order section styles end  */
+
+  /** Footer section styles */
+  .footer > .wrapper-2 {
+    width: 96% !important;
+  }
+  /** Footer section styles end */
+}
+@media screen and (max-width: 1060px) {
+  /** Main Modal section styles  */
+  .main-modal {
+    width: 640px;
+    height: 30rem;
+    background-color: #111;
+  }
+  .main__modal-img {
+    display: none;
+  }
+  .main__modal-info {
+    width: 68%;
+    top: 50%;
+    left: 50%;
+    margin-top: 2rem;
+    transform: translate(-50%, -50%);
+  }
+  .main__modal-about {
+    display: none;
+  }
+  /** Main Modal section styles end  */
+
+  /** Contact Modal section styles  */
+  .contact__modal-openbtn {
+    right: 20px;
+    bottom: 20px;
+  }
+  /** Contact Modal section styles end  */
+
+  /** Landing Modal seection styles  */
+  .landing-modal img {
+    width: 100vw;
+    height: 81vh;
+    object-fit: cover;
+    transform: scale(0.8);
+  }
+  /** Landing Modal seection styles end  */
+
+  /** Video Modal section styles  */
+  .video-modal {
+    width: 65% !important;
+  }
+  .video-modal iframe {
+    height: 21rem;
+  }
+  /** Video Modal section styles end  */
+
+  /** Header section styles  */
+  .header {
+    position: fixed !important;
+  }
+  .navbar {
+    position: relative !important;
+    padding: 1.2rem !important;
+  }
+  .navbar.fixed {
+    padding: 1.2rem !important;
+  }
+  .nav,
+  .others {
+    display: none !important;
+  }
+  .navbar__logo img {
+    height: auto;
+  }
+  .nav__link {
+    font-size: 36px;
+    line-height: 50px !important;
+    font-weight: 600;
+  }
+  .nav-box {
+    display: flex !important;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    justify-content: center;
+    background-color: #ffffff;
+    transform: translateX(-100%);
+    transition: transform 0.5s ease-out;
+  }
+  .open {
+    transform: translateX(0);
+  }
+  .close {
+    transform: translateX(-100%);
+  }
+  .nav__link {
+    text-decoration: none;
+    font-size: 36px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+  }
+  .nav__link:hover,
+  .nav__link:focus {
+    color: rgb(230, 23, 64) !important;
+  }
+  .nav__link:active {
+    color: #1908aa !important;
+  }
+  .menu-close {
+    position: absolute;
+    right: 6%;
+    top: 3%;
+  }
+  .menu-bars {
+    display: flex;
+  }
+  .menu-bars > span {
+    width: 40px;
+    background-color: #fff;
+  }
+  /** Header section styles end */
+
+  /** About section styles */
+  .about__description {
+    padding-left: 0 !important;
+    padding-top: 0;
+    margin-top: 0;
+    width: 100%;
+  }
+  .about-info {
+    padding-bottom: 3rem;
+  }
+  .fact__title {
+    margin-bottom: 1rem;
+  }
+  /** About section styles end */
+
+  /** Portfolio section styles */
+  .portfolio {
+    padding: 0 0 4.5rem 0;
+  }
+  .portfolio-col-h {
+    height: 45vh;
+  }
+  .portfolio-col-h3 {
+    height: 55vh;
+  }
+  .portfolio-col-h2 {
+    height: 35vh;
+  }
+  .d-sm-md-block {
+    display: block;
+  }
+  .order1 {
+    order: 1;
+  }
+  .order2 {
+    order: 2;
+  }
+  .portfolio__overlay-text,
+  .portfolio__overlay-text-2 {
+    font-size: 2.7rem;
+    top: 38% !important;
+  }
+  .swiper-container {
+    width: 650px !important;
+    height: 350px !important;
+  }
+  .portfolio__slider {
+    width: 650px !important;
+    height: 350px !important;
+  }
+  /** Portfolio section styles end */
+
+  /** Ourgroup section styles */
+  .ourgroup {
+    display: block;
+  }
+  /** Ourgroup section styles end */
+
+  /** Partners section styles  */
+  .partners {
+    padding: 4rem 0 2rem 0 !important;
+  }
+  .partners__content .row .col-6 img {
+    width: 8rem !important;
+  }
+  /** Partners section styles end  */
+
+  /** Blog section styles */
+  .blog {
+    padding: 4rem 0 4.5rem 0;
+  }
+  .d-none-md {
+    display: none;
+  }
+  .blog .container {
+    max-width: 98% !important;
+  }
+  .blog__video {
+    height: 18rem;
+  }
+  .blog__content .row {
+    margin: 0 1rem;
+  }
+  /** Blog section styles end */
+
+  /** Order section styles */
+  .order .wrapper {
+    width: 90% !important;
+  }
+  .mbm {
+    margin-bottom: 0.5rem;
+  }
+  /** Order section styles end */
+
+  /** Footer section styles */
+  .footer {
+    padding: 1rem 0 0 0;
+  }
+  .footer__content {
+    width: 100%;
+    margin-left: 3rem;
+  }
+  .footer .wrapper-2 {
+    width: 100% !important;
+  }
+  .footer__body {
+    flex-direction: column;
+  }
+  .footer__body:first-child .footer__card {
+    margin-top: 0;
+    padding-top: 1rem;
+    height: 6rem !important;
+  }
+  .footer__card {
+    margin-bottom: 2rem;
+    width: 100% !important;
+  }
+  .footer__logo {
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+  }
+  .footer__logo img {
+    width: 15%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 1rem;
+    transform: scale(3.3);
+  }
+  .footer__address {
+    margin-bottom: 0;
+  }
+  .footer__card-h {
+    height: 6rem !important;
+  }
+  .footer__nav-item {
+    margin-bottom: 15px;
+  }
+  .footer__line {
+    width: 100%;
+    margin-top: 6rem;
+  }
+  .footer__address {
+    margin-top: 10px;
+  }
+  .footer___footer {
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer__social-icons {
+    margin: 1rem 0;
+  }
+  .up-btn {
+    display: none;
+  }
+  /** Footer section styles end */
+}
+@media screen and (max-width: 767px) {
+  /** Main Modal section styles  */
+  .main-modal {
+    width: 98vw;
+  }
+  /** Main Modal section styles end  */
+
+  /** Video Modal section styles  */
+  .video-modal {
+    width: 70% !important;
+  }
+  .video-modal iframe {
+    height: 22rem;
+  }
+  /** Video Modal section styles end  */
+
+  /** Landing Modal seection styles  */
+  .landing-modal img {
+    width: 100vw;
+    height: 81vh;
+    object-fit: cover;
+    transform: scale(0.4);
+  }
+  /** Landing Modal seection styles end  */
+
+  /** Form Validation Modal section styles  */
+  .form__validation-modal {
+    width: 450px;
+    height: 200px;
+  }
+  .form__validation-modal__closebtn > .fa-times-circle,
+  .form__validation-modal__closebtn > .fa-check-circle {
+    font-size: 60px !important;
+  }
+  .form__validation-modal__text {
+    font-size: 24px;
+    margin-top: 2rem;
+  }
+  /** Form Validation Modal section styles end  */
+
+  /** Header section styles  */
+  .navbar {
+    padding: 1.2rem !important;
+  }
+  .navbar.fixed {
+    padding: 1.2rem !important;
+  }
+  /** Header section styles end  */
+
+  /** About section styles */
+  .about__description {
+    width: 100%;
+  }
+  .about .container {
+    max-width: 87% !important;
+  }
+  /** About section styles end */
+
+  /** Portfolio section styles */
+  .portfolio-col-h {
+    height: 45vh;
+  }
+  .order1 {
+    order: 1;
+  }
+  .order2 {
+    order: 2;
+  }
+  .portfolio-col-h2 {
+    height: 45vh;
+  }
+  .d-sm-md-block {
+    display: block;
+  }
+  .portfolio__overlay-text,
+  .portfolio__overlay-text-2 {
+    font-size: 2.2rem;
+    top: 38% !important;
+  }
+  .swiper-container {
+    width: 90vw !important;
+    height: 40vh !important;
+  }
+  .portfolio__slider {
+    width: 90vw !important;
+    height: 40vh !important;
+  }
+  .portfolio__slider-icon {
+    width: 42px;
+    height: 42px;
+    left: 1.4rem;
+    top: 1.4rem;
+  }
+  /** Portfolio section styles end */
+
+  /** Services section styles  */
+  .services__card {
+    flex-direction: column;
+  }
+  .services__title {
+    margin-top: 2rem;
+  }
+  .services__card-text {
+    margin-top: 1rem;
+    padding-left: 0;
+    text-align: center;
+  }
+  .services__card {
+    height: 80px;
+  }
+  .services .wrapper {
+    width: 90% !important;
+  }
+  .services__card-text {
+    width: 100%;
+    font-size: 16px;
+  }
+  /** Services section styles end  */
+
+  /** Ourgroup section styles */
+  .ourgroup__card-img {
+    width: 260px;
+    height: 320px;
+  }
+  /** Ourgroup section styles end */
+
+  /** Partners section styles */
+  .partners {
+    padding: 3rem 0 0 0;
+  }
+  /** Partners section styles end */
+
+  /** Blog section styles */
+  .blog {
+    padding: 4rem 0 0 0;
+  }
+  .d-none-sm {
+    display: none;
+  }
+  .blog__video {
+    width: 100%;
+  }
+  /** Blog section styles end */
+
+  /** Order section styles */
+  .order .wrapper {
+    width: 95% !important;
+  }
+  .order {
+    padding-top: 2rem;
+  }
+  /** Order section styles end */
+}
+@media screen and (max-width: 577px) {
+  /** Main Modal section styles  */
+  .main__modal-info__main {
+    padding: 0;
+  }
+  /** Main Modal section styles end  */
+
+  /** Video Modal section styles  */
+  .video-modal {
+    width: 80% !important;
+  }
+  .video-modal iframe {
+    height: 15rem;
+  }
+  /** Video Modal section styles end  */
+
+    /** Landing Modal seection styles  */
+    .landing-modal img {
+      width: 100vw;
+      height: 81vh;
+      object-fit: cover;
+      transform: scale(0.6);
+    }
+    /** Landing Modal seection styles end  */
+
+  /** Form Validation Modal section styles  */
+  .form__validation-modal {
+    width: 80vw;
+    height: 190px;
+  }
+  .form__validation-modal__closebtn > .fa-times-circle,
+  .form__validation-modal__closebtn > .fa-check-circle {
+    font-size: 55px !important;
+  }
+  .form__validation-modal__text {
+    font-size: 20px;
+    margin-top: 1rem;
+  }
+  /** Form Validation Modal section styles end  */
+
+  /** Contact Modal section styles  */
+  .contact__modal-openbtn {
+    right: 20px;
+  }
+  /** Contact Modal section styles end  */
+
+  /** Header section styles  */
+  .navbar {
+    padding: 1rem !important;
+  }
+  .navbar.fixed {
+    padding: 1rem !important;
+  }
+  .navbar__logo > img {
+    width: 82px;
+  }
+  .menu-bars > span {
+    width: 2.2rem;
+  }
+  .nav__link {
+    font-size: 25px;
+  }
+  /** Header section styles end  */
+
+  /** Home section styles */
+  .home {
+    height: 27.5rem;
+    padding-top: 4rem !important;
+  }
+  .home__section-icon {
+    width: 64px;
+    height: 69px;
+  }
+  /** Home section styles end */
+
+  /** Portfolio section styles  */
+  .portfolio-col-sm-h {
+    height: 30vh;
+  }
+  .portfolio-col-sm-h2 {
+    height: 55vh;
+  }
+  .order-btn {
+    margin-top: 2rem !important;
+  }
+  .d-sm-md-block {
+    display: block;
+  }
+  .portfolio__overlay-text,
+  .portfolio__overlay-text-2 {
+    font-size: 1.7rem;
+    top: 38% !important;
+  }
+  .swiper-container {
+    width: 90vw !important;
+    height: 35vh !important;
+  }
+  .portfolio__slider {
+    width: 90vw !important;
+    height: 35vh !important;
+  }
+  .portfolio__slider-footer {
+    padding: 1rem !important;
+  }
+  .portfolio__slider-footer__text,
+  .modal-btn {
+    font-size: 14px !important;
+  }
+
+  /** Portfolio section styles end  */
+
+  /** Services section styles */
+  .services__card {
+    height: 80px;
+  }
+  .services .wrapper {
+    width: 98% !important;
+  }
+  .services__card-text {
+    width: 100%;
+    font-size: 16px;
+  }
+  /** Services section styles end */
+
+  /** Ourgroup section styles  */
+  .ourgroup__card-img {
+    width: 200px;
+    height: 256px;
+  }
+  /** Ourgroup section styles end  */
+
+  /** Partners sections styles  */
+  .partners__title {
+    margin-bottom: 1rem;
+  }
+  .partners .wrapper {
+    width: 95% !important;
+  }
+  /** Partners sections styles end  */
+
+  /** Blog section styles  */
+  .blog .container {
+    max-width: 94% !important;
+  }
+  .blog__content .row {
+    margin: 0;
+  }
+  .blog__content .row .col-md-6 {
+    padding: 0;
+  }
+  .blog__title {
+    margin-bottom: 3rem;
+  }
+  .blog__video {
+    height: 15rem;
+  }
+  .blog {
+    padding: 3rem 0 4rem 0;
+  }
+  /** Blog section styles end  */
+
+  /** Order section styles  */
+  .order__form {
+    margin: 0 3rem !important;
+    outline-offset: 2rem;
+  }
+  .order-img-1 {
+    width: 5rem;
+    right: -1rem;
+    height: auto;
+    top: 5rem;
+  }
+  .order-img-2 {
+    width: 7rem !important;
+    left: -2.5rem;
+    bottom: -5rem;
+    height: auto;
+  }
+  .order .wrapper {
+    margin-bottom: 8rem !important;
+    padding: 2rem 0 !important;
+  }
+  /** Order section styles end  */
+
+  /** Footer section styles  */
+  .footer__logo img {
+    width: 36%;
+    height: 98%;
+    transform: scale(2.8);
+  }
+  .footer__addresses {
+    width: 90%;
+  }
+  .footer__addresses:first-child {
+    width: 90%;
+  }
+  .footer___footer {
+    align-items: flex-start !important;
+  }
+  /** Footer section styles end  */
+}
+@media screen and (max-width: 450px) {
+  /** Contact Modal section styles */
+  .contact__modal-btn {
+    width: 80%;
+    margin: 0 auto 1rem auto !important;
+  }
+  .contact__modal-form {
+    width: 80%;
+  }
+  .contact__modal-inputbox i {
+    left: 3rem !important;
+  }
+  /** Contact Modal section styles end */
+    /** Landing Modal seection styles  */
+    .landing-modal img {
+      width: 100vw;
+      height: 81vh;
+      object-fit: cover;
+      transform: scale(0.7);
+    }
+    /** Landing Modal seection styles end  */
+
+  /** Header section styles  */
+  .navbar__logo img {
+    width: 68px;
+  }
+  .menu-bars > span {
+    width: 2rem;
+  }
+  /** Header section styles end  */
+
+  /** Portfolio section styles  */
+  .portfolio__modal-btn-none {
+    display: none !important;
+  }
+  .portfolio__slider-footer__text,
+  .modal-btn {
+    font-size: 15px !important;
+  }
+  .swiper-container {
+    width: 96vw !important;
+    height: 38vh !important;
+  }
+  .portfolio__slider {
+    width: 96vw !important;
+    height: 38vh !important;
+  }
+  /** Portfolio section styles end  */
+}
+@media screen and (max-width: 400px) {
+  /** Main Modal section styles  */
+  .main__modal-cost {
+    font-size: 1.6rem;
+  }
+  .main__modal-title {
+    font-size: 1.4rem;
+  }
+  .main__modal-description {
+    font-size: 1.1rem;
+  }
+  /** Main Modal section styles end */
+
+  /** Contact Modal section styles */
+  .contact__modal-btn {
+    width: 80%;
+    margin: 0 auto 1rem auto !important;
+  }
+  .contact__modal-form {
+    width: 90%;
+  }
+  .contact-modal {
+    width: 100vw !important;
+    max-width: 90%;
+  }
+  .contact__modal-inputbox i {
+    left: 1.905rem !important;
+  }
+  /** Contact Modal section styles end */
+
+  /** Video Modal section styles  */
+  .video-modal {
+    width: 85% !important;
+  }
+  .video-modal iframe {
+    height: 15rem;
+  }
+  /** Video Modal section styles end  */
+
+  /** Landing Modal seection styles  */
+  .landing-modal img {
+    width: 100vw;
+    height: 81vh;
+    object-fit: cover;
+    transform: scale(0.8);
+  }
+  /** Landing Modal seection styles end  */
+
+  /** Form Validation Modal section styles  */
+  .form__validation-modal {
+    width: 90vw;
+    height: 190px;
+  }
+  .form__validation-modal__closebtn > .fa-times-circle,
+  .form__validation-modal__closebtn > .fa-check-circle {
+    font-size: 55px !important;
+  }
+  .form__validation-modal__text {
+    font-size: 20px;
+    margin-top: 1rem;
+  }
+  /** Form Validation Modal section styles end  */
+
+  /** Portfolio section styles  */
+  .portfolio .row-1 {
+    flex-direction: column !important;
+  }
+  .portfolio .row .col-6 {
+    width: 100% !important;
+  }
+  .portfolio-col-sm-h2,
+  .portfolio-col-sm-h {
+    height: 40vh;
+  }
+  .portfolio__footer {
+    display: flex;
+    flex-direction: column !important;
+  }
+  /** Portfolio section styles end  */
+
+  /** Services section styles  */
+  .services__title,
+  .blog__title,
+  .outgroup__title,
+  .partners__title {
+    font-size: 25px !important;
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+  /** Services section styles end  */
+
+  /** Ourgroup section styles  */
+  .ourgroup__card-img {
+    width: 150px;
+    height: 180px;
+  }
+  /** Ourgroup section styles end */
+
+  /** Blog section styles  */
+  .blog__video {
+    height: 13rem;
+  }
+  /** Blog section styles end  */
+
+  /** Order section styles  */
+  .order__form {
+    margin: 0 1rem !important;
+    outline-offset: 0.8rem;
+    padding: 1rem 0;
+  }
+  .order-btn {
+    margin-top: 1rem !important;
+  }
+  .order .wrapper {
+    margin-bottom: 6rem !important;
+  }
+  /** Order section styles end  */
+}
+
+/** Umidjon Developer - 2021.09.02 soat 00:00da  */
